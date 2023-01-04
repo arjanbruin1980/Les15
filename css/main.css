@@ -1,1 +1,89 @@
+body{
+    background-color:cornsilk;
+    text-align: center;
+    padding: 15px;
+}
 
+table{
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+#tablewidth { 
+    width: 800px;
+    text-align: left;
+}
+    
+td, th{
+    padding: 10px 5px;
+    background-color: beige;
+    }
+
+input[type="text"], input[type="email"], textarea, button{
+    display: block;
+    margin: 15px 10px;
+    width: 400px;
+    box-sizing: border-box;
+    background-color: beige;
+}
+
+textarea{
+    height: 200px;
+    background-color: lightblue;
+    padding: 5px 4px;
+}
+
+button:active{
+    background-color: lightgreen;
+    color: blue;
+    border-radius: 8px;
+    box-shadow: inset 2px 2px 5px green;
+}
+
+ul a{
+    color:lightblue;
+    text-decoration: none;
+}
+
+li{
+    display: inline-block;
+    height: 15px;
+    width: 70px;
+    padding: 12px;
+    text-align: center;
+    color: lightblue;
+    border-left: 2px solid green;
+    border-right: 1px solid green;
+    background-color:darkblue;
+}
+
+li:hover{
+    background-color: black;
+    border-style: none;
+}
+
+h1{
+    background-color: beige;
+    margin: 15px 15px;
+}
+
+h2{
+    background-color:azure;
+    margin: 15px 15px;
+}
+
+p {
+    background-color:beige;
+    margin: 15px 15px;
+}
+
+.footer {
+    position:relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 5px;
+    color:grey;
+    text-align: center;
+}
