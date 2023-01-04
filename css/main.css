@@ -10,7 +10,7 @@ table{
     margin-right: auto;
     }
 
-#tablewidth { 
+.tablewidth { 
     width: 800px;
     text-align: left;
 }
